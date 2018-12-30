@@ -35,11 +35,11 @@ class _MicPhotoState extends State<MicPhoto> {
                       }
                 });
               },
-              child: new Icon(
+              child: Icon(
                 (_color == Colors.blue)?Icons.mic : Icons.mic_off,
                 size: 250.0,
               ),
-              shape: new CircleBorder(),
+              shape: CircleBorder(),
               elevation: 2.0,
               fillColor: _color,
               padding: const EdgeInsets.all(15.0),
