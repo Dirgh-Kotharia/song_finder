@@ -43,6 +43,7 @@ class _MicPhotoState extends State<MicPhoto> {
               elevation: 2.0,
               fillColor: _color,
               padding: const EdgeInsets.all(15.0),
+              splashColor: ( _color == Colors.blue)? Colors.red : Colors.blue,
             ),
           Padding(
               padding: const EdgeInsets.all(25.0),
